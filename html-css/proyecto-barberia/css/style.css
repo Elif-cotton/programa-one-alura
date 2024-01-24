@@ -1,0 +1,25 @@
+body{
+    background: #cccccc;
+}
+#banner{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+em strong{
+    color: red;
+}
+#mision{
+    font-size: 20px
+}
+.items{
+    font-style: italic;
+}
+
+/*r r g g b b color   negro 0 1 2 3 4 5 6 7 8 9 A B C D E F   blanco o perdida de color
+rgb(0,0,0)  0= menor 255=max     
+color rojo con el nombre red, el hexadecimal #FF0000 y el RGB rgb(255,0,0)*/
