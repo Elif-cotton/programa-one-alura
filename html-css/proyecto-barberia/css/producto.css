@@ -74,3 +74,14 @@ nav a:hover{    /*captura el movimiento del mouse*/
     font-weight: bold;
     margin-top: 10px; /*separar precio de la descripción*/
 }
+
+footer{
+    text-align: center;
+    background: url(/img/bg.jpg);  /*repite la imagen n veces*/
+    padding: 40px;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
