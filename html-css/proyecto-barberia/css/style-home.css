@@ -1,0 +1,44 @@
+
+.titulo-principal{
+    padding-left: 30px;
+}
+#banner{
+    width: 100%;
+}
+.principal{
+    background: #cccccc;
+    padding: 20px;
+}
+.titulo-centralizado{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+em strong{
+    color: red;
+}
+#mision{
+    font-size: 20px
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+ul{
+    display:inline-block;  /*ocupe solo su contenido no todo el bloque*/
+    vertical-align: top;     /*alineamiento vertical parte superior foto*/
+    width: 20%;  /*ocupe el 20% de la pantalla*/
+    margin-right: 15%;
+}
+.items{
+    font-style: italic;
+}
+.imagenDiferenciales{
+    width: 50%;
+}
+
+/*r r g g b b color   negro 0 1 2 3 4 5 6 7 8 9 A B C D E F   blanco o perdida de color
+rgb(0,0,0)  0= menor 255=max     
+color rojo con el nombre red, el hexadecimal #FF0000 y el RGB rgb(255,0,0)*/

@@ -1,44 +1,87 @@
-
-.titulo-principal{
-    padding-left: 30px;
-}
-#banner{
-    width: 100%;
-}
-.principal{
-    background: #cccccc;
+header{
+    background-color: #BBBBBB;
     padding: 20px;
 }
-.titulo-centralizado{
-    text-align: center;
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;  /*0 superior e inferior, auto bordes*/
 }
-p{
-    text-align: center;
+nav{
+    position:absolute;  /*por default static, absolute se puede ubicar en cualquier parte de la pag*/ 
+    top: 110px;
+    right: 0;
 }
-em strong{
-    color: red;
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;  /*top right bottom left*/
 }
-#mision{
-    font-size: 20px
+nav a {
+    text-transform: uppercase; /*letras en mayúsculas*/
+    color:#000000;  /*color de las letras */
+    font-weight: bold;  /*negritas letras*/
+    font-size: 22px;
+    text-decoration: none; /*quitar subrayado link*/
 }
-
-.diferenciales{
-    background: #FFFFFF;
-    padding: 30px;
-}
-ul{
-    display:inline-block;  /*ocupe solo su contenido no todo el bloque*/
-    vertical-align: top;     /*alineamiento vertical parte superior foto*/
-    width: 20%;  /*ocupe el 20% de la pantalla*/
-    margin-right: 15%;
-}
-.items{
-    font-style: italic;
-}
-.imagenDiferenciales{
-    width: 50%;
+nav a:hover{    /*captura el movimiento del mouse*/
+    color: #c78c19;
+    text-decoration: underline; /*subrayado*/
 }
 
-/*r r g g b b color   negro 0 1 2 3 4 5 6 7 8 9 A B C D E F   blanco o perdida de color
-rgb(0,0,0)  0= menor 255=max     
-color rojo con el nombre red, el hexadecimal #FF0000 y el RGB rgb(255,0,0)*/
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;  /*ocupar cada uno el 30 % de espacio  30x3=90 espacio*/
+    vertical-align: top;
+    /*background: #cccccc;  ayudar la visual*/
+    margin: 0 1.5%; /*1.5x6=9+90=99 del total del espacio 940px*/
+    padding: 30px 20px; /*30 vertical y 20 horizaontal sobrepasa */
+    box-sizing: border-box; /*borde de los items será el límite definido*/
+    
+    border: 2px solid #000000;  /*borde simplificado width-style-color*/
+    /*border-color: #000000;
+    border-width: 2px;
+    border-style: solid;*/
+    border-radius: 10px;
+}
+
+.productos li:hover { /*captura el movimiento del mouse*/
+    border-color: #c78c19;
+    
+}
+.productos li:active {  /*con elñ click del mouse*/
+   border-color: #088c19;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.productos li:hover h2 { /*captura el movimiento del mouse*/
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px; /*separar precio de la descripción*/
+}
+
+footer{
+    text-align: center;
+    background: url(/img/bg.jpg);  /*repite la imagen n veces*/
+    padding: 40px;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
