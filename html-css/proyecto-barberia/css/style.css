@@ -54,7 +54,7 @@ nav a:hover{    /*captura el movimiento del mouse*/
     border-color: #c78c19;
     
 }
-.productos li:active {  /*con elñ click del mouse*/
+.productos li:active {  /*con el click del mouse*/
    border-color: #088c19;
 }
 
@@ -84,4 +84,24 @@ footer{
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px;
+}
+
+/*main contacto*/
+main{
+    width: 940px;  /*centrar*/
+    margin: 0 auto;   /*centrar*/
+}
+form{
+    margin: 40px 0;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
