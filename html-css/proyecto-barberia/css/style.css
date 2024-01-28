@@ -94,7 +94,7 @@ main{
 form{
     margin: 40px 0;
 }
-form label, form p{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -108,3 +108,37 @@ form label, form p{
 .checkbox{
     margin: 20px 0;
 }
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border-radius: 5px;
+    border:none;
+    transition: 1s all;
+    cursor: pointer;  /*mano sobre botón*/
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);  /*mano sobre botón aumentar tamaño botón*/
+    /*transform: scale(1.2) rotate(70deg);
+    transform: rotate(70deg);*/
+}
+
+table{
+    margin: 40px 40px;
+}
+thead{
+    background: #555555;
+    color: white;  /*color letra*/ 
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
