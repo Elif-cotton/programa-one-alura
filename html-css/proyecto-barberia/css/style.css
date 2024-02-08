@@ -91,10 +91,7 @@ footer{
 }
 
 /*main contacto*/
-main{
-    width: 940px;  /*centrar*/
-    margin: 0 auto;   /*centrar*/
-}
+
 form{
     margin: 40px 0;
 }
@@ -151,6 +148,12 @@ td, th{
 .banner{
     width: 100%;
 }
+.principal{
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;  /*centrar*/
+    margin: 0 auto;   /*centrar*/
+}
 .titulo-principal{
     text-align: center;
     font-size: 2em; /*2 veces 15 pixeles tamaño de la fuente*/
@@ -174,12 +177,22 @@ td, th{
 
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#fefefe,#888888);
 }
 .mapa p{
     margin: 0 0 2em;
     text-align: center;
 }
+.mapa-contenido{
+    width: 940px;  /*centrar*/
+    margin: 0 auto;   /*centrar*/
+}
 
+
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
+}
 .contenido-diferenciales{
     width: 640px;
     margin: 0 auto;
@@ -191,6 +204,9 @@ td, th{
 }
 .items{
     line-height: 1.5; /*50% fuente espacios */
+}
+.items:first-child{    /*pseudoclase primer hijo, primer hijo de negrito */
+    font-weight: bold;
 }
 .imagen-diferenciales{
     width: 60%;
