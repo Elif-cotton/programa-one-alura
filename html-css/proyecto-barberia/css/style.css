@@ -160,6 +160,23 @@ td, th{
     margin: 0 0 1em;   /*distancia superior inferior margen*/
     clear:left;  /*imagen no aplique a los títulos*/
 }
+
+/*pseudo-elementos
+.titulo-principal:first-letter{   /*alterar la primera letra del título
+    font-weight: bold;
+}
+.titulo-principal:before{   /*coloque algo antes del título
+   content: "[";
+}
+.titulo-principal:after{   /*coloque algo despué del título
+    content: "]";
+ }
+p:first-line{           /*alterar la primera línea del parrafo
+    font-style: italic;
+}
+*/
+
+
 .principal p{
     margin: 0 0 1em;
 }
@@ -204,6 +221,10 @@ td, th{
 }
 .items{
     line-height: 1.5; /*50% fuente espacios */
+}
+.items:before{
+    /*content: "\2605";*/
+    content: "★";
 }
 .items:first-child{    /*pseudoclase primer hijo, primer hijo de negrito */
     font-weight: bold;
