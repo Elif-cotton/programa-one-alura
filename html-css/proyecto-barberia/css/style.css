@@ -159,6 +159,7 @@ td, th{
     font-size: 2em; /*2 veces 15 pixeles tamaño de la fuente*/
     margin: 0 0 1em;   /*distancia superior inferior margen*/
     clear:left;  /*imagen no aplique a los títulos*/
+    /*color: rgba(0, 0, 0, 0.3);  /*con 4 elemento opacidad*/
 }
 
 /*pseudo-elementos
@@ -231,6 +232,11 @@ p:first-line{           /*alterar la primera línea del parrafo
 }
 .imagen-diferenciales{
     width: 60%;
+                /* opacity: ;  0% que no pase luz, 0.3 es pasa 30% de luz */
+    transition: 400ms;
+}
+.imagen-diferenciales:hover{      /* opacity: ;  cuando el mouse se posa sobre la foto */
+    opacity: 0.3;   /* opacity: ;  0% que no pase luz, 0.3 es pasa 30% de luz */
 }
 
 .video{
