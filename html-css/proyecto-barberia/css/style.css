@@ -234,6 +234,7 @@ p:first-line{           /*alterar la primera línea del parrafo
     width: 60%;
                 /* opacity: ;  0% que no pase luz, 0.3 es pasa 30% de luz */
     transition: 400ms;
+    box-shadow: 10px 10px 10px 15px #000000; /*ubicación sombra eje horizontal, eje vertical, difuminación(sólido a transparente),spread expansión (hasta donde debe llegar), color sombra, valor + abajo y derecha , - arriba e izquierda*/
 }
 .imagen-diferenciales:hover{      /* opacity: ;  cuando el mouse se posa sobre la foto */
     opacity: 0.3;   /* opacity: ;  0% que no pase luz, 0.3 es pasa 30% de luz */
